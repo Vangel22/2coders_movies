@@ -1,26 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { VStack, Heading } from "@chakra-ui/react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <VStack h="full" w="full" p={24}>
+      <VStack h="full" w="full" bg="red">
+        <Heading>2Coders Movies</Heading>
+      </VStack>
+    </VStack>
   );
 }
 
-export default App;
+export { App };
+//https://api.themoviedb.org/3/movie/popular?api_key=77ed937bcbac4cb5d296b37525175570
