@@ -1,13 +1,11 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import env from "react-dotenv";
-
-
-import { Movies } from "../models/movies";
+import { MovieOrganizer } from "../models/movie-organizer";
 
 const useMovies = () => {
     
-    const [data, setData] = useState<Movies>();
+    const [data, setData] = useState<MovieOrganizer>();
 
     async function fetchPopularMovies () {
        const res = await axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=${env.API_KEY}`); 

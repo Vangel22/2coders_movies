@@ -1,4 +1,4 @@
-export type Movies = {
+export type Movie = {
     adult: string;
     backdrop_path: string;
     genre_ids: Array<number>;
