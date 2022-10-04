@@ -11,3 +11,14 @@ In the project directory, you can run:
 __react-dotenv__
 __axios__
 __chakra-ui__
+
+# Requirements
+
+## Functional Components
+## React Router
+## State management - context
+## Custom hook
+## RXJS 
+## Enzime and Jest
+## Error Boundary
+## React Portals
