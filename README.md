@@ -6,6 +6,8 @@ In the project directory, you can run:
 
 ### `npm start`
 
+### add .env file and enter your `API_KEY` for movies API
+
 # Used libraries
 
 __react-dotenv__  
