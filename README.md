@@ -11,6 +11,7 @@ In the project directory, you can run:
 __react-dotenv__
 __axios__
 __chakra-ui__
+__date_fns__
 
 # Requirements
 
