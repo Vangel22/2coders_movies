@@ -21,8 +21,8 @@ const MainScreen = () => {
           w="full"
           columns={[1, 2, 3, 2, 4]}
         >
-          {movies?.results.map((movie) => (
-            <MovieCard movie={movie} />
+          {movies?.results.map((movie, key) => (
+            <MovieCard key={key} movie={movie} />
           ))}
         </SimpleGrid>
       </Stack>
