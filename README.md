@@ -8,9 +8,9 @@ In the project directory, you can run:
 
 # Used libraries
 
-__react-dotenv__ 
-__axios__ 
-__chakra-ui__ 
+__react-dotenv__  
+__axios__  
+__chakra-ui__  
 __date_fns__ 
 
 # Requirements
